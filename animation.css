@@ -1,0 +1,17 @@
+        .loading { opacity: 0 !important; } 
+        .toasts { display: none; }
+        .logs__row {
+            opacity: 0;
+        }
+        .logs__row.animate {
+            animation: fadeIn 2s ease forwards !important;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
